@@ -1,0 +1,33 @@
+body {
+    background-color: #a2b5cd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+}
+
+#progress .times,
+.card-footer,
+.volume-container {
+    display: flex;
+    align-items: center; /* dikey ortalama */
+    justify-content: space-between;
+}
+
+.volume-container i {
+    margin-right: 5px;
+}
+
+li.playing {
+    background-color: #0b5eb7;
+    color: #fff;
+}
+
+#music-image {
+    border-radius: 6px;
+    height: 400px; 
+}
